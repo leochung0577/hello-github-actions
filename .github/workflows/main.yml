@@ -1,4 +1,3 @@
-on: push
 name: A workflow for my Hello World file
 jobs:
    build:
@@ -9,3 +8,4 @@ jobs:
        - uses: ./action-a
          with:
           MY_NAME: "Mona"
+on: push
